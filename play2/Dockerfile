@@ -14,6 +14,4 @@ RUN wget https://downloads.typesafe.com/typesafe-activator/${ACTIVATOR_VERSION}/
     unzip ${ZIP_FILE} && rm ${ZIP_FILE}
 
 # Set path
-ENV PLAYPATH ${TARGET_DIR}/activator-${ACTIVATOR_VERSION}-minimal
-ENV PATH $PLAYPATH:$PATH
-
+ENV PATH ${TARGET_DIR}/activator-${ACTIVATOR_VERSION}-minimal:$PATH
