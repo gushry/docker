@@ -1,5 +1,5 @@
 FROM gushry/deps
-MAINTAINER Gushiken
+MAINTAINER gushry
 
 ENV ACTIVATOR_VERSION="1.3.5" \
     TARGET_DIR="/opt"
