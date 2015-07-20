@@ -1,4 +1,4 @@
-FROM java:openjdk-8u45-jdk
+FROM gushry/deps
 MAINTAINER Gushiken
 
 ENV ACTIVATOR_VERSION="1.3.5" \
