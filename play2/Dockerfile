@@ -1,5 +1,5 @@
-FROM java:openjdk-8u45-jdk
-MAINTAINER Gushiken
+FROM gushry/deps
+MAINTAINER gushry
 
 ENV ACTIVATOR_VERSION="1.3.5" \
     TARGET_DIR="/opt"
