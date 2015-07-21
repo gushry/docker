@@ -6,7 +6,7 @@ ENV ACTIVATOR_VERSION="1.3.5" \
 ENV ZIP_FILE=typesafe-activator-${ACTIVATOR_VERSION}-minimal.zip
 
 # Get dependencies
-RUN apt-get install -y --force-yes wget unzip
+RUN apt-get install -y --force-yes unzip
 
 # Get play
 WORKDIR ${TARGET_DIR}
