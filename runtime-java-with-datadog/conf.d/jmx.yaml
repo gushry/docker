@@ -1,0 +1,26 @@
+#https://github.com/DataDog/dd-agent/blob/master/conf.d/jmx.yaml.example
+init_config:
+
+instances:
+#    -   host: localhost
+#        port: 7199
+#        name: jmx_instance
+#        user: username
+#        password: password
+#
+#        Visit http://docs.datadoghq.com/integrations/java/ to customize it
+#        conf:
+#            -include:
+#               domain: my_domain
+#               bean: my_bean
+#               attribute:
+#                    attribute1:
+#                        metric_type: counter
+#                        alias: jmx.my_metric_name
+#                    attribute2:
+#                        metric_type: gauge
+#                        alias: jmx.my2ndattribute
+#            - include:
+#                domain: 2nd_domain
+#            - exclude:
+#                bean: excluded_bean
