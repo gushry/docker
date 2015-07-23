@@ -29,6 +29,8 @@ ADD scripts /opt/scripts
 RUN ls -lR /opt
 RUN ls -lR /etc/newrelic
 RUN chmod +x /opt/scripts/newrelic.sh
-ONBUILD RUN /opt/scripts/newrelic.sh
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+ENTRYPOINT ["/opt/scripts/newrelic.sh"]
+
