@@ -8,6 +8,7 @@ ENV JAVA_DEBIAN_VERSION 8u45-b14-2~bpo8+2
 ENV CA_CERTIFICATES_JAVA_VERSION 20140324
 
 RUN set -x \
+	&& apt-get update \
 	&& apt-get install -y \
 		openjdk-8-jdk="$JAVA_DEBIAN_VERSION" \
 		ca-certificates-java="$CA_CERTIFICATES_JAVA_VERSION"
