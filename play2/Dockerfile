@@ -1,4 +1,4 @@
-FROM gushry/deps
+FROM gushry/runtime-java
 MAINTAINER gushry
 
 ENV ACTIVATOR_VERSION="1.3.5" \
